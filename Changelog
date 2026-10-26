@@ -1,0 +1,10 @@
+# clock Changelog
+
+## 1.0.0  2026-05-26
+
+- Initial release
+# Function Addition 
+
+Added Three Functions:
+# Hour() -> int
+it returns the current hour of 
