@@ -1,10 +1,16 @@
 # clock Changelog
 
+## 1.2.0
+
+- Fix the entry point (`libs` -> `lib`); the app now starts again
+- Read the clock once per run, so output can no longer mix two ticks
+- Zero-padded output (`09:05:03` instead of `9:5:3`)
+- Add `--format/-f` (any `strftime` pattern) and `--utc/-u`
+- `_clock` helpers accept an optional moment; `mint()` kept as a deprecated alias
+- Drop the bogus `datetime` dependency (it ships with Python)
+- Add unit tests, `.gitignore` and a proper README
+- Remove the duplicate `Readme` file (same content as `README.md`)
+
 ## 1.0.0  2026-05-26
 
 - Initial release
-# Function Addition 
-
-Added Three Functions:
-# Hour() -> int
-it returns the current hour of 
